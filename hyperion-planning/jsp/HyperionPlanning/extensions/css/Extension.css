@@ -1,0 +1,843 @@
+@CHARSET "UTF-8";
+
+.leftSplash {
+	margin: 0 0 0 0;
+	background-repeat: repeat-x;
+	background-color: #596e9b;
+	text-align: center;
+	vertical-align: middle;
+	font: normal 65% Arial, verdana;
+	color: white;
+}
+
+.body {
+	margin: 0 0 0 0;
+	background-repeat: repeat-x;
+	background-color: #ECF4F8;
+	text-align: left;
+	vertical-align: middle;
+	font: 11px Verdana,Tahoma,Helvetica,Sans-Serif;
+	color: black;
+}
+
+.splash {
+	margin: 0 0 0 0;
+	background-repeat: repeat-x;
+	background-color: #ECF4F8;
+	text-align: center;
+	vertical-align: middle;
+	font: normal 65% Arial, verdana;
+	color: #c5ced5;
+}
+
+.splash_productName {
+	font-size: 9pt;
+	font-weight: bold;
+	color: #000000;
+	vertical-align: bottom;
+	FONT-FAMILY: Arial, Verdana, Helvetica, sans-serif;
+}
+
+
+.masthead TD.logo_sep {
+	background-image: URL("/HyperionPlanning/extensions/img/divider_pipe.gif");
+	background-repeat: repeat-y;
+	background-position: center;
+}
+
+.logo_sep {
+	background-image: URL("/HyperionPlanning/extensions/img/divider_pipe.gif");
+	background-repeat: repeat-y;
+	background-position: center;
+	height: 39px;
+	width: 1px;
+}
+
+.masthead IMG.logo_sep {
+	height: 39px;
+	width: 1px;
+}
+
+.outerTable {
+	height: 100%;
+	width: 100%;
+	background-color: #EAF3F8;
+}
+
+.topRow {
+	height: 45px;
+	background-image: URL("/HyperionPlanning/extensions/img/menubar_bg.jpg");
+	background-repeat: repeat-x;
+}
+
+.masthead TD.logo {
+	background-image: URL("/HyperionPlanning/extensions/img/logo.gif");
+	background-repeat: no-repeat;
+	background-position: center left;
+	padding-right: 95px;
+}
+
+.logo {
+	background-image: URL("/HyperionPlanning/extensions/img/logo.gif");
+	background-repeat: no-repeat;
+	background-position: center left;
+	padding-right: 95px;
+}
+
+.splash_productNameSup {
+	font-size: 8pt;
+	font-weight: normal;
+	color: #000000;
+	vertical-align: super;
+	FONT-FAMILY: Arial, Verdana, Helvetica, sans-serif;
+}
+
+.splash_content {
+	font-size: 9pt;
+	color: #000000;
+	vertical-align: top;
+	FONT-FAMILY: Arial, Verdana, Helvetica, sans-serif;
+	line-height: 18px;
+}
+
+.error {
+	color: red;
+	font-weight: bold
+}
+
+.ok {
+	color: green;
+	font-weight: bold
+}
+
+.bold {
+	font-weight: bold
+}
+
+table.audit {
+	border-width: 1px;
+	border-spacing: 0px;
+	border-style: outset;
+	border-color: gray;
+	border-collapse: separate;
+}
+table.audit th {
+	border-width: 1px;
+	padding: 1px;
+	border-style: inset;
+	border-color: gray;
+}
+table.audit td {
+	border-width: 1px;
+	padding: 1px;
+	border-style: inset;
+	border-color: gray;
+}
+
+/* ---------------------------------------------------- 
+  Groupboxes
+  Make all text-alignment adjustments in page body
+   ---------------------------------------------------- */
+
+.groupbox TABLE.outerBorder {
+    background-color: #EAF3F8;
+}
+
+.groupbox TABLE.outerTable {
+    border-right: thin solid #3875D7;
+    border-bottom: thin solid #3875D7;
+    border-top: thin solid #3875D7;
+    border-left: thin solid #3875D7;
+    border-width: 1px;
+}
+
+.groupbox TD {
+    text-indent: 2px;
+}
+
+/*.groupbox TR.primary {
+    background-color : #EAF3F8 ;
+}*/
+
+.groupbox TR.primary {
+    color: #000000;
+    background-image : URL("/HyperionPlanning/extensions/img/column_header.jpg"); ;
+    border-left: 1px solid #cfd7e0;
+}
+
+.groupbox TD.primary {
+    background-image : URL("/HyperionPlanning/extensions/img/column_header.jpg");
+    border-left: 1px solid #cfd7e0;
+}
+
+.groupbox TR.body {
+    background-color: #EAF3F8;
+}
+
+.groupbox TD.body {
+    border-left: 1px solid #cfd7e0;
+    border-bottom: 1px solid #cfd7e0;
+    background-color: #EAF3F8;
+}
+
+.groupbox TD.bodysmall {
+    border-color: #EAF3F8;
+}
+
+.groupbox TR.altbody {
+    background: #EAF3F8;
+}
+
+.groupbox TD.altbody {
+    border-left: 1px solid #cfd7e0;
+    border-bottom: 1px solid #e9ecf0;
+    background: #EAF3F8;
+}
+
+.groupbox TR.horz_line {
+    background: #E0E6EC;
+}
+
+.groupbox TD.outerBorder  {
+    background-color: #F8FBFD;
+    border-bottom: 1px solid #c1d1dd;
+    border-left: 1px solid #f7f8fa;
+    border-right: 1px solid #c1d1dd;
+    border-top: none;
+}
+
+
+
+/* ---------------------------------------------------- 
+  Tadpole Buttons -- When Drawing Buttons in HTML
+   ---------------------------------------------------- */
+.htmlButtons td {
+	
+}
+
+.primaryActive,.secondaryActive,.cancelActive {
+	font: 11px Arial, Verdana, Tahoma, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #3a4879;
+	text-align: center;
+	text-transform: none;
+	height: 22px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	padding-left: 10px;
+	padding-right: 10px;
+	_width: 1px;
+	_overflow: visible;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #7489ac;
+	background-image: url("/HyperionPlanning/extensions/img/button-background-hover.gif");
+}
+
+.primaryRollover,.secondaryRollover,.cancelRollover {
+	font: 11px Arial, Verdana, Tahoma, Helvetica, sans-serif;
+	color: #3a4879;
+	text-align: center;
+	text-transform: none;
+	height: 22px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	padding-left: 10px;
+	padding-right: 10px;
+	_width: 1px;
+	_overflow: visible;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #ff6f00;
+	background-image: url("/HyperionPlanning/extensions/img/button-background-hover.gif");
+}
+
+.primaryClicked,.secondaryClicked,.cancelClicked,.secondaryPressed,.cancelPressed
+	{
+	font: 11px Arial, Verdana, Tahoma, Helvetica, sans-serif;
+	color: #ffffff;
+	text-align: center;
+	text-transform: none;
+	height: 22px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	padding-left: 10px;
+	padding-right: 10px;
+	_width: 1px;
+	_overflow: visible;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #7489ac;
+	background-image: url("/HyperionPlanning/extensions/img/button-background-clicked.gif");
+}
+
+.primaryDisabled,.secondaryDisabled,.cancelDisabled {
+	font: 11px Arial, Verdana, Tahoma, Helvetica, sans-serif;
+	color: #9abcd6;
+	text-align: center;
+	text-transform: none;
+	height: 22px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	padding-left: 10px;
+	padding-right: 10px;
+	_width: 1px;
+	_overflow: visible;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #9abcd6;
+	background-image: url("/HyperionPlanning/extensions/img/button-background-disabled.gif");
+}
+
+/* ---------------------------------------------------- 
+  Tadpole Logon Styles
+   ---------------------------------------------------- */   
+ .logon_copyright {
+    color: #000000;
+    padding-top: 2px;
+    text-align: left;
+} 
+
+/* ---------------------------------------------------- 
+  Tadpole Content Area
+   ---------------------------------------------------- */
+
+fieldset {
+    border: 1px solid #BBC4CF;
+    -moz-border-radius-topleft: 10px;
+    -moz-border-radius-topright: 0px;
+    -moz-border-radius-bottomleft: 0px; 
+    -moz-border-radius-bottomright: 0px;
+}
+
+fieldset {
+/* border: 1px solid #BBC4CF; */
+}
+
+.draw_fieldset td.topLeft {
+    background-image: url("images_global/field_set_corner_leftTop.gif");
+    background-position: bottom left;
+    background-repeat: no-repeat; 
+    border:none;
+    background-color: #EAF3F8;
+    width: 8px;
+    height: 14px;
+}
+
+.draw_fieldset td.middleLeft {
+    border-left: 1px solid #BBC4CF;
+}
+
+.draw_fieldset td.bottomLeft {
+    border-left: 1px solid #BBC4CF; 
+    border-bottom: 1px solid #BBC4CF;
+    width: 8px;
+    height: 8px;
+}
+
+.draw_fieldset td.label {
+    vertical-align: top;
+    padding-left: 5px;
+    padding-right: 5px;
+    white-space: nowrap;
+}
+
+ .draw_fieldset td.content_top {
+    background-image: url("images_global/field_set_top_border.gif");
+    background-position: top;
+    background-repeat: repeat-x; 
+ }
+
+.draw_fieldset td.fieldsetContent {
+    border-bottom: 1px solid #BBC4CF;
+    padding-left: 10px;
+    padding-top: 10px;
+ }
+
+ .draw_fieldset td.topRight {
+    background-image: url("images_global/field_set_corner_top_right.gif");
+    background-position: bottom right;
+    background-repeat: no-repeat; 
+    height: 14px;
+    width: 8px;
+ }
+
+ .draw_fieldset td.middleRight {
+    border-right: 1px solid #BBC4CF; 
+}
+
+ .draw_fieldset td.bottomRight {
+    background-image: url("images_global/field_set_corner_rightBottom.gif");
+    background-position: bottom right;
+    background-repeat: no-repeat; 
+    height: 8px;
+    width: 8px;
+ }
+
+ .draw_fieldset td.topLeft_logon {
+    background-image: url("images_global/field_set_corner_leftTop.gif");
+    background-position: top left;
+    background-repeat: no-repeat; 
+    width: 8px;
+    height: 8px;
+}
+
+ .draw_fieldset td.content_log_on {
+    border-top: 1px solid #BBC4CF; 
+    border-bottom: 1px solid #BBC4CF;
+ }
+
+  .draw_fieldset td.topRight_logon {
+    border-top: 1px solid #BBC4CF;
+    border-right: 1px solid #BBC4CF; 
+    background-color: #FFFFFF;
+    height: 8px;
+    width: 8px;
+ }
+
+  .draw_fieldset td.middleRight_logon {
+    border-right: 1px solid #BBC4CF; 
+    background-color: #FFFFFF;
+}
+
+ .draw_fieldset td.bottomRight_logon {
+    background-image: url("images_global/field_set_corner_rightBottom_logon.gif");
+    background-position: bottom right;
+    background-repeat: no-repeat; 
+    height: 8px;
+    width: 8px;
+ }
+
+.draw_fieldset td.topLeft_blank {
+    background-image: url("images_global/field_set_corner_leftTop.gif");
+    background-position: top left;
+    background-repeat: no-repeat; 
+    width: 8px;
+    height: 8px;
+}
+
+ .draw_fieldset td.content_blank {
+    border-top: 1px solid #BBC4CF;
+}
+
+.draw_fieldset td.topRight_blank {
+    border-top: 1px solid #BBC4CF;
+    border-right: 1px solid #BBC4CF; 
+    height: 8px;
+    width: 8px;
+ }
+
+.draw_fieldset td.bottomBody {
+	padding-top: 10px;
+	padding-left: 10px;
+	border-right: 1px solid #BBC4CF;
+	border-left:1px solid #BBC4CF;
+	border-bottom:1px solid #BBC4CF;
+}
+
+.content A:link, .content A:visited {
+    color: #000000;
+    text-decoration: underline;
+}
+
+.content A:hover {
+    color: #000000;
+    text-decoration: underline;
+}   
+
+.content td.pageHead, .content td.subHead {
+    color: #000000;
+}
+
+.content td.subHeadDetail, .content td.fieldLabel {
+    color: #000000;
+    white-space: nowrap;
+}
+
+
+.content td.bodyText {
+    color: #000000;
+}
+
+.content, .content table.content {
+    background: #EAF3F8;
+}
+
+/**
+ --------------------------------------
+*/
+.draw_fieldset td.topLeft {
+	background-image:
+		url("themes/theme_tadpole/images_global/field_set_corner_leftTop.gif")
+		;
+	background-position: bottom left;
+	background-repeat: no-repeat;
+	width: 8px;
+	height: 14px;
+}
+
+.draw_fieldset td.middleLeft {
+	border-left: 1px solid #BBC4CF;
+}
+
+.draw_fieldset td.bottomLeft {
+	border-left: 1px solid #BBC4CF;
+	border-bottom: 1px solid #BBC4CF;
+	width: 8px;
+	height: 8px;
+}
+
+.draw_fieldset td.label {
+	vertical-align: bottom;
+	padding-left: 5px;
+	padding-right: 5px;
+	white-space: nowrap;
+	font-weight: bold;
+	font-size: 9pt;
+}
+
+.draw_fieldset td.content_top {
+	background-image:
+		url("themes/theme_tadpole/images_global/field_set_top_border.gif");
+	background-position: top;
+	background-repeat: repeat-x;
+}
+
+.draw_fieldset td.content {
+	border-bottom: 1px solid #BBC4CF;
+	padding-left: 10px;
+	padding-top: 10px;
+	padding-bottom: 15px;
+}
+
+.draw_fieldset td.topRight {
+	background-image:
+		url("themes/theme_tadpole/images_global/field_set_corner_top_right.gif")
+		;
+	background-position: bottom right;
+	background-repeat: no-repeat;
+	height: 14px;
+	width: 8px;
+}
+
+.draw_fieldset td.middleRight {
+	border-right: 1px solid #BBC4CF;
+}
+
+.draw_fieldset td.bottomRight {
+	background-image:
+		url("themes/theme_tadpole/images_global/field_set_corner_rightBottom.gif")
+		;
+	background-position: bottom right;
+	background-repeat: no-repeat;
+	height: 8px;
+	width: 8px;
+}
+
+.draw_fieldset td.topLeft_blank {
+	background-image:
+		url("themes/theme_tadpole/images_global/field_set_corner_leftTop.gif")
+		;
+	background-position: top left;
+	background-repeat: no-repeat;
+	width: 8px;
+	height: 8px;
+}
+
+.draw_fieldset td.content_blank {
+	border-top: 1px solid #BBC4CF;
+}
+
+.draw_fieldset td.topRight_blank {
+	border-top: 1px solid #BBC4CF;
+	border-right: 1px solid #BBC4CF;
+	height: 8px;
+	width: 8px;
+}
+
+table#outerTable {
+	border-collapse: separate;
+	border-spacing: 5px;
+	border: none;
+}
+
+#outerTable td,#outerTable th {
+	padding: 3px;
+	border: solid 1px black;
+}
+
+
+
+.text-field {
+	width: 100px;
+	font: 11px Tahoma, Verdana, Arial, Sans-Serif;
+	padding: 2px;
+	height: 22px
+}
+
+
+
+
+.primaryRollover,.secondaryRollover,.cancelRollover {
+	font-family: Arial, Verdana, Tahoma, Helvetica, sans-serif;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	font-size: 11px;
+	line-height: normal;
+	font-size-adjust: none;
+	font-stretch: normal;
+	color: #3a4879;
+	text-align: center;
+	text-transform: none;
+	height: 22px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-top-color: #ff6f00;
+	border-bottom-color: #ff6f00;
+	background-image: url("/HyperionPlanning/extensions/img/button-background-hover.gif");
+}
+
+.button,.buttonPrimary,.buttonSecondary,.buttonCancel {
+	font: 11px Arial, Verdana, Tahoma, Helvetica, sans-serif;
+	font-weight: normal;
+	text-align: center;
+	text-transform: none;
+	color: #000000;
+	height: 22px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #000000;
+	background-color: #ffffff;
+}
+
+.button-disabled,.buttonPrimary-disabled,.buttonSecondary-disabled,.buttonCancel-disabled
+	{
+	color: #660000;
+	border-color: #000000;
+}
+
+.button-hover,.buttonPrimary-hover,.buttonSecondary-hover,.buttonCancel-hover
+	{
+	padding-top: 0px;
+	padding-bottom: 0px;
+	padding-left: 9px;
+	padding-right: 9px;
+	border-width: 2px;
+	border-color: #000000;
+	background-color: #ffffff;
+	color: #000000;
+}
+
+.button-focus,.buttonPrimary-focus,.buttonSecondary-focus,.buttonCancel-focus
+	{
+	padding-top: 1px;
+	padding-bottom: 1px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border: 1px solid #ff0000;
+}
+
+.button-active,.buttonPrimary-active,.buttonSecondary-active,.buttonCancel-active
+	{
+	color: #ffffff;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border: 1px solid #ff0000;
+	background-color: #000000;
+}
+
+.buttonIconPane {
+	font: 11px Arial, Verdana, Tahoma, Helvetica, sans-serif;
+	font-weight: normal;
+	padding-bottom: 4px;
+	padding-top: 4px;
+	background-color: #ffffff;
+	color: #000000;
+	text-transform: none;
+	height: 18px;
+	border: 0px;
+}
+
+.buttonIconPaneSelected {
+	font: 11px Arial, Verdana, Tahoma, Helvetica, sans-serif;
+	font-weight: normal;
+	padding-bottom: 4px;
+	padding-top: 4px;
+	background-color: #000000;
+	color: #ffffff;
+	text-transform: none;
+	height: 18px;
+	border: 0px;
+}
+
+.prefsDlgIconPaneSelected {
+	text-align: left;
+	font: 11px Arial, Verdana, Tahoma, Helvetica, sans-serif;
+	font-weight: normal;
+	background-color: #cccccc;
+	color: #000000;
+	text-transform: none;
+	text-align: center;
+	height: 18px;
+	border: 1px solid #cccccc;
+}
+
+.primaryRollover,.secondaryRollover,.cancelRollover {
+	font-family: Arial, Verdana, Tahoma, Helvetica, sans-serif;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	font-size: 11px;
+	line-height: normal;
+	font-size-adjust: none;
+	font-stretch: normal;
+	color: #3a4879;
+	text-align: center;
+	text-transform: none;
+	height: 22px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-top-color: #ff6f00;
+	border-bottom-color: #ff6f00;
+	background-image: url("/HyperionPlanning/extensions/img/button-background-hover.gif");
+}
+
+.list {
+	border: 2px inset;
+	-moz-border-right-colors: ThreeDHighlight ThreeDLightShadow;
+	-moz-border-left-colors: ThreeDShadow ThreeDDarkShadow;
+	-moz-border-bottom-colors: ThreeDHighlight ThreeDLightShadow;
+	-moz-border-top-colors: ThreeDShadow ThreeDDarkShadow;
+	background-color: Window;
+	color: WindowText
+}
+
+.list-item {
+	padding: 1px 5px;
+	cursor: default;
+	font: 11px Tahoma, Verdana, Arial, Sans-Serif
+}
+
+.list-item-selected {
+	background: ButtonFace;
+	padding: 1px 5px
+}
+
+.list-focus .list-item-selected {
+	background: Highlight;
+	color: HighlightText
+}
+
+.list-focus .list-item-lead {
+	border: 1px solid ThreeDShadow;
+	padding: 0px 4px
+}
+
+.list-focus>.list-item-lead {
+	border: 0;
+	margin: 1px;
+	-moz-outline: 1px dotted WindowText
+}
+
+
+.combo-box {
+	width: 100px;
+	height: 22px;
+	border: 2px inset;
+	background-color: Window;
+	color: WindowText;
+	-moz-appearance: menulist;
+	-moz-border-right-colors: ThreeDHighlight ThreeDLightShadow;
+	-moz-border-left-colors: ThreeDShadow ThreeDDarkShadow;
+	-moz-border-bottom-colors: ThreeDHighlight ThreeDLightShadow;
+	-moz-border-top-colors: ThreeDShadow ThreeDDarkShadow
+}
+
+.combo-box .button .combo-box-arrow {
+	top: -1px;
+	left: -2px;
+	width: 12px;
+	height: 100%;
+	background-image: url("/HyperionPlanning/extensions/img/arrow.down.gif");
+	background-repeat: no-repeat;
+	background-position: center center
+}
+
+.combo-box .button>* {
+	visibility: hidden
+}
+
+.combo-box .bi-label {
+	padding: 1px 5px
+}
+
+.combo-box-focus .combo-box-label {
+	background-color: Highlight;
+	color: HighlightText
+}
+
+.combo-box-editable .combo-box-label {
+	background-color: transparent
+}
+
+.combo-box .button {
+	background-color: ButtonFace
+}
+
+.combo-box>.button {
+	background-color: transparent;
+	-moz-appearance: menulist-button
+}
+
+.combo-box .text-field {
+	padding: 1px 5px 0px 5px;
+	background-color: Window
+}
+
+.combo-box-list {
+	border: 1px solid WindowFrame;
+	background-color: Window;
+	color: WindowText
+}
+
+.combo-box-list .bi-list-item {
+	
+}
+
+.combo-box-list .list-item-selected {
+	background: Highlight !important;
+	color: HighlightText !important;
+	border: 0;
+	padding: 1px 5px
+}
+
+.tool-bar-button-active,.tool-bar-button-checked,.tool-bar-menu-button-active,div,td,th,input,textarea,select,li,p
+	{
+	font-family: Verdana, Tahoma, Helvetica, Sans-Serif;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	font-size: 11px;
+	line-height: normal;
+	font-size-adjust: none;
+	font-stretch: normal;
+}
